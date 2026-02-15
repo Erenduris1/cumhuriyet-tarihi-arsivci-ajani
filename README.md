@@ -42,7 +42,6 @@ cumhuriyet-tarihi-arsivci-skill-project/
 ├─ README.tr.md
 ├─ LICENSE
 ├─ docs/
-│  ├─ GITHUB_METADATA.md
 │  ├─ RELEASE_NOTES_EN.md
 │  └─ RELEASE_NOTES_TR.md
 ├─ claude/
@@ -80,15 +79,6 @@ Paste `claude/CLAUDE_PROJECT_INSTRUCTIONS.md` into Claude Project Instructions.
 ```text
 What topics were discussed in TBMM in November 1924?
 ```
-
-## GitHub Ready Metadata
-
-See `docs/GITHUB_METADATA.md` for:
-
-- ready-to-use repository description
-- topic tags
-- social/share snippets
-
 
 ## Release Texts
 

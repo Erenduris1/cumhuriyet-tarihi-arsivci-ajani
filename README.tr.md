@@ -42,7 +42,6 @@ cumhuriyet-tarihi-arsivci-skill-project/
 ├─ README.tr.md
 ├─ LICENSE
 ├─ docs/
-│  ├─ GITHUB_METADATA.md
 │  ├─ RELEASE_NOTES_EN.md
 │  └─ RELEASE_NOTES_TR.md
 ├─ claude/
@@ -80,15 +79,6 @@ Copy-Item ".\dist\cumhuriyet-tarihi-arsivci-ajani.zip" ".\dist\cumhuriyet-tarihi
 ```text
 1924 Kasiminda TBMM'de hangi konular konusuldu?
 ```
-
-## GitHub Icin Hazir Metinler
-
-`docs/GITHUB_METADATA.md` dosyasinda:
-
-- hazir repo aciklamasi
-- topic etiketleri
-- sosyal/paylasim metinleri
-
 
 ## Release Metinleri
 
