@@ -42,7 +42,6 @@ cumhuriyet-tarihi-arsivci-skill-project/
 ├─ README.tr.md
 ├─ LICENSE
 ├─ docs/
-│  ├─ ANALIZ_GORUS_ONERILERI.md
 │  ├─ GITHUB_METADATA.md
 │  ├─ RELEASE_NOTES_EN.md
 │  └─ RELEASE_NOTES_TR.md
@@ -90,16 +89,11 @@ Copy-Item ".\dist\cumhuriyet-tarihi-arsivci-ajani.zip" ".\dist\cumhuriyet-tarihi
 - topic etiketleri
 - sosyal/paylasim metinleri
 
-Yukleme adimlari: `docs/GITHUB_UPLOAD_STEPS.md`
 
 ## Release Metinleri
 
 - English release note: `docs/RELEASE_NOTES_EN.md`
 - Turkce release note: `docs/RELEASE_NOTES_TR.md`
-
-## Analiz Dosyasi Durumu
-
-`docs/ANALIZ_GORUS_ONERILERI.md` dosyasi guncellendi; duzeltilen maddeler "resolved" olarak isaretlendi.
 
 ## Lisans
 

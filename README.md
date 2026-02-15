@@ -42,7 +42,6 @@ cumhuriyet-tarihi-arsivci-skill-project/
 ├─ README.tr.md
 ├─ LICENSE
 ├─ docs/
-│  ├─ ANALIZ_GORUS_ONERILERI.md
 │  ├─ GITHUB_METADATA.md
 │  ├─ RELEASE_NOTES_EN.md
 │  └─ RELEASE_NOTES_TR.md
@@ -90,16 +89,11 @@ See `docs/GITHUB_METADATA.md` for:
 - topic tags
 - social/share snippets
 
-Upload steps: `docs/GITHUB_UPLOAD_STEPS.md`
 
 ## Release Texts
 
 - English release note: `docs/RELEASE_NOTES_EN.md`
 - Turkish release note: `docs/RELEASE_NOTES_TR.md`
-
-## Current Analysis Status
-
-`docs/ANALIZ_GORUS_ONERILERI.md` now separates fixed items vs remaining items to avoid confusion.
 
 ## License
 
