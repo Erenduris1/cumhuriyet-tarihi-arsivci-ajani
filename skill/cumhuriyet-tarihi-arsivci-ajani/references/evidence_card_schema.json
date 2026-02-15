@@ -1,0 +1,104 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Evidence Card",
+  "type": "object",
+  "required": [
+    "doc_id",
+    "title",
+    "date",
+    "source_type",
+    "repository",
+    "reference_code",
+    "pages_or_section",
+    "access_url_or_location",
+    "access_status",
+    "captured_at",
+    "language",
+    "keywords",
+    "excerpt_short",
+    "claim_supported",
+    "reliability_notes",
+    "confidence",
+    "next_leads"
+  ],
+  "properties": {
+    "doc_id": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string",
+      "description": "YYYY-MM-DD or YYYY"
+    },
+    "source_type": {
+      "type": "string",
+      "enum": [
+        "archive",
+        "parliament",
+        "official_gazette",
+        "press",
+        "library",
+        "international",
+        "secondary"
+      ]
+    },
+    "repository": {
+      "type": "string"
+    },
+    "reference_code": {
+      "type": "string"
+    },
+    "pages_or_section": {
+      "type": "string"
+    },
+    "access_url_or_location": {
+      "type": "string"
+    },
+    "access_status": {
+      "type": "string",
+      "enum": [
+        "open",
+        "login_required",
+        "unavailable"
+      ]
+    },
+    "captured_at": {
+      "type": "string",
+      "description": "ISO-8601 timestamp"
+    },
+    "language": {
+      "type": "string"
+    },
+    "keywords": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "excerpt_short": {
+      "type": "string"
+    },
+    "claim_supported": {
+      "type": "string"
+    },
+    "reliability_notes": {
+      "type": "string"
+    },
+    "confidence": {
+      "type": "string",
+      "enum": [
+        "low",
+        "medium",
+        "high"
+      ]
+    },
+    "next_leads": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

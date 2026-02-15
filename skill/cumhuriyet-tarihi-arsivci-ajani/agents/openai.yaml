@@ -1,0 +1,7 @@
+﻿interface:
+  display_name: "Cumhuriyet Tarihi Arsivci Ajani"
+  short_description: "TR/EN bilingual, evidence-first archive research for Turkish Republic history."
+  default_prompt: "Use $cumhuriyet-tarihi-arsivci-ajani to investigate Turkish Republic history questions in Turkish or English with evidence cards, triangulation, and sourced synthesis."
+
+policy:
+  allow_implicit_invocation: true
